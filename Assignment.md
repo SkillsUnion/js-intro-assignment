@@ -8,27 +8,29 @@
 
 What are the return values for each of the below code snippets? After coming up with each answer, test it out in the browser console.
 
+#### Structure
+
+This assignement repository contains some preexisting tests for you to fix. On CodeSandbox you'll have them run automatically - the goal is to have all of them green!
+
+
+To have them work on your own machine, first run:
+
+```bash
+   yarn install
+```
+
+You can then run the test with just
+
+```bash
+   yarn test
+```
+
 #### Part 1:
 
-```js
-typeof(42);
-// Your Answer
+We're going to look at datatypes.
 
-typeof(4.2);
-// Your Answer
+Open [types.test.js](src/types.test.js) and try to fix all the tests!
 
-typeof("hello");
-// Your Answer
-
-typeof(false);
-// Your Answer
-
-typeof(NaN);
-// Your Answer
-
-typeof(4 !== 2);
-// Your Answer
-```
 
 #### Part 2:
 
