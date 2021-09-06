@@ -2,6 +2,8 @@
 
 # JavaScript Introdcution: Assignment
 
+This assignement will be done entirely in CodeSandox - we'll give you a starting sandbox to fork & work in.
+
 ## Problems
 
 ### 1: Data Types
@@ -25,90 +27,31 @@ You can then run the test with just
    yarn test
 ```
 
-#### Part 1:
+#### Part 1: Types
 
 We're going to look at datatypes.
 
 Open [types.test.js](src/types.test.js) and try to fix all the tests!
 
 
-#### Part 2:
+#### Part 2: Conversions
+
+Open [conversions.test.js](src/conversions.test.js) and try to fix all the tests!
 
 What's going on here? What "rules," if any, can we guess from testing these examples?
 
-```js
-"hamburger" + "s";
-// Your Answer
-
-"hamburgers" - "s";
-// Your Answer
-
-"4" + "2"
-// Your Answer
-
-"4" - "2";
-// Your Answer
-
-"johnny" + 5;
-// Your Answer
-
-"johnny" - 5;
-// Your Answer
-
-99 * "baloons";
-// Your Answer
-
-```
-
 ### 2: Temperature Converter
 
-Create a program that can convert a temperature in Fahrenheit, Celsius, or Kelvin to the other two units.
+Create a program that can convert a temperature from Celsius to in Fahrenheit or Kelvin.
 
 #### Setup
 
-1. Under the `src` directory, create a file named `index.html`
-1. Under the `src` directory, create a file named `script.js`
-1. Make sure to link the `script.js` file with the `index.html` file
+1. Open the 3.1_temperature.js file
+1. Check the two lines where we defined the "kelvin" & "farheneit"  variables
+1. Update those two so that the test run successfully
 
-#### Instructions
-
-1. Define a variable named `celsius`
-1. Store the temperature you get from the user into the `celsius` variable
-1. Using the [conversion formula](http://www.csgnetwork.com/temp2conv.html), write JavaScript code that converts `Celsius` to its equivalent `Fahrenheit` and `Kelvin` values
-
-    Example:
-
-    ```
-    0C => 32F
-    0C => 273.15K
-    ```
-1. Use `console.log` to print the starting and converted temperature
-1. Repeat steps 1-4 for `Fahrenheit` and `Kelvin` temperatures
-1. Test your program by opening the `index.html` file in your browser
-
-**Example:**
-
-```js
-// Starting temperature
-const celsius = ...; // Add some code to get the user input
-
-// Conversion Code
-const celsiusToFahrenheit = ...;
-const celsiusToKelvin = ...;
-
-// Print the results to the browser console
-console.log(`Celsius: #{...}`);
-console.log(`Fahrenheit: #{...}`);
-console.log(`Kelvin: #{...}`);
-```
-
-The browser will print something like this example in the console:
-
-```
-Celsius: STARTING_TEMP C
-Fahrenheit: CONVERTED_TEMP F
-Kelvin: CONVERTED_TEMP K
-```
+For this one you don't need to change the test code - just those two lines.
+Check that all the tests are passing!
 
 ## Submission Guidelines
 
