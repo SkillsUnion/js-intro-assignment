@@ -1,6 +1,6 @@
 [<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
 
-# JavaScript Introdcution: Assignment
+# JavaScript Introduction: Assignment
 
 This assignement will be done entirely in CodeSandox - we'll give you a starting sandbox to fork & work in.
 
